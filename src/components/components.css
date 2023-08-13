@@ -1,0 +1,75 @@
+.main-container {
+  display: flex;
+  padding: 20px;
+
+}
+
+.loginPage {
+  width: 400px;
+  height: fit-content;
+  border: 1px solid rgb(252, 252, 252);
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+  padding: 30px;
+    margin: 10px auto;
+}
+
+.loginPage h2 {
+  text-align: center;
+}
+.loginPage h4 {
+  text-align: center;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 20px;
+    margin: 10px auto;
+    gap: 10px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.navbar a {
+  color: black;
+  padding: 20px;
+}
+
+.navbar a:hover {
+  color: orangered;
+
+}
+
+.navbar svg {
+  font-size: xx-large;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100px;
+  background-color: rgba(255, 68, 0, 0.2);
+  color: orangered;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.myField {
+  margin: 10px 0;
+}
+
+.myBtn {
+  background-color: orangered;
+}
