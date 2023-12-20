@@ -2,6 +2,7 @@ import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import cors from "cors";
+import cookieParser from "cookie-parser";
 import bodyParser from "body-parser";
 import userRoutes from "./routes/userRoutes.js";
 
@@ -12,6 +13,7 @@ const DB_URI = process.env.MONGODB_URI;
 const app = express();
 app.use(cors());
 app.use(bodyParser.json());
+app.use(cookieParser());
 app.use("/user", userRoutes);
 
 mongoose
