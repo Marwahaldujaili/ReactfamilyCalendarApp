@@ -5,7 +5,6 @@ import cors from "cors";
 import cookieParser from "cookie-parser";
 import bodyParser from "body-parser";
 import userRoutes from "./routes/userRoutes.js";
-
 dotenv.config();
 const port = process.env.PORT;
 const DB_URI = process.env.MONGODB_URI;
